@@ -1,0 +1,284 @@
+/************** Media quries  **********/
+
+/* big tablet to 1200px ( widths smaller than the 1140px row ) */
+@media screen and (max-width: 1200px) {
+    
+}
+
+
+/* small tablet to big tablets: form 768px to 1023px */
+@media screen and (max-width: 1023px) {
+    html{
+        font-size: 60%;
+    } 
+
+    .bg-image{
+        top: 150px;
+        width: 45%;
+    }
+
+    .herobox{
+        height: 100%;
+        padding-bottom: 3rem;
+    }
+
+    .bg-stripes-right {
+        top: -219px;
+        right: -143px;
+    }
+
+    .section-work-title{
+        width: 70%;
+    }
+}
+    
+/* small phones to small tablets: form 481px to 767px */
+@media screen and (max-width: 767px) {
+        html{
+            font-size: 55%;
+        } 
+
+        .toggler-btn{
+            display: block;
+        }
+    
+        .navigation-menu{
+          display: none;
+        }
+    
+        .toogle-nav{
+            width: 100%;
+            position: absolute;
+            background-color: hsl(256, 26%, 20%);
+            top: 45px;
+            padding: 4rem;
+            display: none;
+            background-image: url("/img/icons/bg-pattern-intro-right-desktop.svg");
+            background-repeat: no-repeat;
+            background-position: 19rem 14rem;
+        }
+    
+        .toogle-nav a{
+            display: block;
+            text-align: center;
+            margin-bottom: 2rem;
+        }
+    
+        .toogle-nav .navigation-menuList{
+            color: hsl(0, 0%, 98%);
+            font-size: 2rem;
+        }
+    
+        .toogle-nav a:last-child{
+            width: 40%;
+            margin: 0rem auto;
+        }
+    
+
+    .navigation-menu{
+        display: none;
+    }
+
+    .image-ctx-large,
+    .bg-stripes-right{
+        display: none;   
+    }
+
+    .sm-image{
+        line-height: 0px;
+        width: 100%;
+        display: block;
+    }
+
+    .sm-image img{
+       width: 100%;
+    }
+
+    .herobox{
+        height: 100%;
+        padding-bottom: 8rem;
+        background-image: url("/img/icons/bg-pattern-intro-left-mobile.svg");
+        background-repeat: no-repeat;
+    }
+
+    .herobox-description{ 
+        width: 100%; 
+        /* padding-top: 8rem; */
+    }
+
+    .image-ctx-small{
+        display: block;
+        position: absolute;
+        right: 0px;
+        top: 140rem;
+    }
+
+    .main {
+        padding-top: 20rem;
+    }
+
+    .section-info-list{
+        align-items: baseline;
+    }
+    .section-info-list-items img{
+        width: 32%;
+    }
+
+    .section-work{
+        background-image: url("/img/icons/bg-pattern-how-we-work-mobile.svg");
+        padding: 3rem;
+        display: block;
+        background-position: 60rem 0rem;
+        width: 100%;
+        text-align: center;
+    }
+
+    .section-work-title{
+        width: 100%;
+        line-height: 1;
+        padding-bottom: 3rem;
+    }
+
+    .footer-links{
+        align-items: baseline;
+    }
+}
+    
+/* small phones: form 0 to 480px */
+@media screen and (max-width: 480px) {
+    html{
+        font-size: 50%;
+    }
+  /********* navigation **********/
+
+
+    .navigation-menu{
+      display: none;
+    }
+
+    .toogle-nav{
+        width: 100%;
+        position: absolute;
+        background-color: hsl(256, 26%, 20%);
+        top: 45px;
+        padding: 4rem;
+        display: none;
+        background-image: url("/img/icons/bg-pattern-intro-right-desktop.svg");
+        background-repeat: no-repeat;
+        background-position: -2rem 11rem;
+    }
+
+    .toogle-nav a{
+        display: block;
+        text-align: center;
+        margin-bottom: 2rem;
+    }
+
+    .toogle-nav .navigation-menuList{
+        color: hsl(0, 0%, 98%);
+        font-size: 2rem;
+    }
+
+    .toogle-nav a:last-child{
+        width: 40%;
+        margin: 0rem auto;
+    }
+
+    .image-ctx-large,
+    .bg-stripes-right{
+        display: none;   
+    }  
+
+    .sm-image{
+        line-height: 0px;
+        width: 100%;
+        display: block;
+    }
+
+    .sm-image img{
+       width: 100%;
+    }
+
+    .herobox{
+        height: 100%;
+        padding-bottom: 8rem;
+        background-image: url("/img/icons/bg-pattern-intro-left-mobile.svg");
+        background-repeat: no-repeat;
+    }
+
+    .herobox-description{ 
+        width: 100%; 
+        text-align: center;
+        /* padding-top: 8rem; */
+    }
+
+    .image-ctx-small{
+        display: block;
+        position: absolute;
+        right: 0px;
+        top: 103rem;
+    }
+
+    .main {
+        padding-top: 15rem;
+    }
+
+    .herobox-description-title::before{
+        display: none;
+    }
+
+    .section-info-title{
+        text-align: center;
+    }
+
+    .section-info-title::before{
+        display: none;
+    }
+
+    .section-info-list{
+        display: block;
+        text-align: center;
+    }
+
+    .section-info-list-items{
+        width: 100%;
+        padding-bottom: 4rem;
+    }
+
+    .section-info-list-items img{
+        width: 22%;
+    }
+
+    .section-work{
+        background-image: url("/img/icons/bg-pattern-how-we-work-mobile.svg");
+        padding: 3rem;
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+
+    .section-work-title{
+       width: 100%;
+       line-height: 1;
+       padding-bottom: 3rem;
+    }
+
+    .footer{
+        background-image: url("/img/icons/bg-pattern-footer-mobile.svg");
+        background-repeat: no-repeat;
+    }
+
+    .footer-links{
+        display: block;
+        text-align: center;
+    }
+
+    .footer-links-list{
+        padding-bottom: 2rem;
+    }
+
+    .footer-links-list:last-child{
+        padding-bottom: 0rem;
+    }
+
+}
